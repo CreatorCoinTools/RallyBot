@@ -1,7 +1,7 @@
 name: Deploy Site to Github Pages
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
 jobs:
   build-and-deploy:
     name: Build and Deploy the Site
