@@ -17,12 +17,12 @@ jobs:
           npm i
           npm run build
       - name: Install SSH Client 🔑
-        uses: webfactory/ssh-agent@v0.2.0
+        uses: webfactory/ssh-agent@v0.4.1
         with:
           ssh-private-key: ${{ secrets.DEPLOY_KEY_PRIVATE }}
 
       - name: Deploy 🚀
-        uses: JamesIves/github-pages-deploy-action@releases/v3
+        uses: JamesIves/github-pages-deploy-action@3.7.1
         with:
           SSH: true
           BRANCH: gh-pages
