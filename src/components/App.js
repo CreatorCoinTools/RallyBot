@@ -8,8 +8,8 @@ const App = () => {
   return (
     <>
       <img className="logo" src={logo} alt="logo" />
-      <h1>Build the best Discord Server!</h1>
-      <h4>Qui occaecat labore elit anim incididunt quis reprehenderit.</h4>
+      <h1>CreatorCoin Discord Bot</h1>
+      <h4>Made with <3 from the community.</h4>
       <div className="btn-container">
         <button className="btn-bg1">
           <a
