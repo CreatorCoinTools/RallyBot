@@ -21,6 +21,7 @@ const App = () => {
             </span>
             Add to Discord
           </a>
+        </button>
       </div>
     </>
   );
