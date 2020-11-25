@@ -9,7 +9,7 @@ const App = () => {
     <>
       <img className="logo" src={logo} alt="logo" />
       <h1>CreatorCoin Discord Bot</h1>
-      <h4>Made with <3 from the community.</h4>
+      <h4>Made with love by the commmunity.</h4>
       <div className="btn-container">
         <button className="btn-bg1">
           <a
