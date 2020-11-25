@@ -21,8 +21,8 @@ const App = () => {
             </span>
             Add to Discord
           </a>
-        </button>
-        <button className="btn-bg2">See features</button>
+       //// </button> Disabled until there's as need for it.
+     ////   <button className="btn-bg2">See features</button>
       </div>
     </>
   );
